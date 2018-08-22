@@ -13,3 +13,14 @@ I can see an empty board
 ## Implementation Notes
 
 Will start as a command line app in Ruby.
+
+### Board Design
+
+```
+   A   B   C
+1    |   |   
+  ---|---|---
+2    |   |    
+  ---|---|---
+3    |   |   
+```
