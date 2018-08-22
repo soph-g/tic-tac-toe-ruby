@@ -14,9 +14,12 @@ I can see an empty board
 
 Will start as a command line app in Ruby.
 
-### Board Design
+
+### User Interaction
 
 ```
+game.start =>
+
    A   B   C
 1    |   |   
   ---|---|---
