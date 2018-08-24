@@ -10,6 +10,12 @@ So that I can play a game of tic tac toe
 I can see an empty board
 ```
 
+```
+As a user
+So that I can place an 'X'
+I can make a move giving the grid location
+```
+
 ## Implementation Notes
 
 Will start as a command line app in Ruby.
@@ -20,10 +26,19 @@ Will start as a command line app in Ruby.
 ```
 game.start =>
 
-   A   B   C
-1    |   |   
-  ---|---|---
-2    |   |    
-  ---|---|---
-3    |   |   
+    |   |  
+ ---|---|---
+    |   |    
+ ---|---|---
+    |   |   
+```
+
+```
+game.move(1, 1) =>
+
+ x |   |  
+---|---|---
+   |   |    
+---|---|---
+   |   |   
 ```
